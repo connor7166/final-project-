@@ -16,8 +16,10 @@ print ("as you walk you reach a wall made of scrap with three doors, 1 says scra
 choice = input ("which door (1,2,3) will you pick:")
 if choice == "2":
     death()
+    exit()
 elif choice == "3":
     death()
+    exit()
 elif choice == "1":
     survive()
     print ("wastelanders love their scrap, no other door would make since.")
@@ -25,6 +27,7 @@ elif choice == "1":
     choice = input ("should you walk through and enjoy the open road (yes,no):")
     if choice == "yes":
         death()
+        exit()
     elif choice == "no":
         survive()
         print ("you guess that the field is full of mines which you then confirm when you see another traveler running in the distance blasted into smitherines.")
@@ -35,8 +38,10 @@ elif choice == "1":
         choice = input ("enter your choice:")
         if choice == "1":
             death()
+            exit()
         elif choice == "2":
             death()
+            exit()
         elif choice == "3":
             survive()
             print ("it is a slow method but it's full proof, your only real option.")
@@ -49,6 +54,7 @@ elif choice == "1":
             choice = input ("enter your choice:")
             if choice == "1":
                 death()
+                exit()
             elif choice == "2":
                 survive()
                 print ("you are lucky enough to be far enough from the explosion and you survive the explosion.")
